@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: white;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.javafxproject.ManageMaterialStockPageController">
+   <children>
+      <ImageView fitHeight="80.0" fitWidth="140.0" layoutX="27.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/main-logo-only.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="177.0" layoutY="64.0" prefHeight="53.0" prefWidth="408.0" text="Quản lý kho nguyên liệu">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="184.0" prefHeight="35.0" prefWidth="488.0" text="Danh sách nguyên liệu trong kho">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableNL" layoutX="28.0" layoutY="233.0" prefHeight="399.0" prefWidth="1227.0">
+        <columns>
+          <TableColumn fx:id="idNguyenLieuColumn" prefWidth="213.06669235229492" text="Mã nguyên liệu" />
+          <TableColumn fx:id="tenNguyenLieuColumn" minWidth="0.0" prefWidth="432.5332794189453" text="Tên nguyên liệu" />
+            <TableColumn fx:id="soLuongColumn" minWidth="0.0" prefWidth="225.86669921875" text="Còn lại" />
+            <TableColumn fx:id="donViColumn" minWidth="0.0" prefWidth="355.73333740234375" text="Đơn vị" />
+        </columns>
+      </TableView>
+      <Button layoutX="24.0" layoutY="648.0" mnemonicParsing="false" onAction="#switchToManagerFunctionsPage" prefHeight="47.0" prefWidth="253.0" stylesheets="@../../../../css/GlobalStyle.css" text="TRỞ LẠI">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="bg-yellow" />
+            <String fx:value="bg-orange" />
+         </styleClass>
+      </Button>
+      <ImageView fitHeight="81.0" fitWidth="110.0" layoutX="1169.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/manager-avt.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbHoTen" alignment="CENTER_RIGHT" layoutX="694.0" layoutY="64.0" prefHeight="35.0" prefWidth="460.0" text="Họ và tên quản trị viên">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnDatHang" layoutX="1032.0" layoutY="176.0" mnemonicParsing="false" onAction="#switchToOrderMaterialPage" prefHeight="47.0" prefWidth="222.0" stylesheets="@../../../../css/GlobalStyle.css" text="ĐẶT HÀNG">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="bg-green" />
+            <String fx:value="btn" />
+         </styleClass>
+      </Button>
+   </children>
+   <styleClass>
+      <String fx:value="btn" />
+      <String fx:value="bg-blue" />
+   </styleClass>
+</Pane>
