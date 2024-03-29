@@ -1,0 +1,4 @@
+--patch-module
+com.mycompany.javafxproject=_
+--add-reads
+com.mycompany.javafxproject=ALL-UNNAMED

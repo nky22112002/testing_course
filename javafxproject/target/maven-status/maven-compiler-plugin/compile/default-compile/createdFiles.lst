@@ -19,7 +19,6 @@ commonuse\Constant.class
 com\mycompany\javafxproject\MainLoginPageController.class
 com\mycompany\javafxproject\ManagerFunctionsPageController.class
 com\nva\pojo\MonAn.class
-com\nva\services\SimpleCal.class
 com\mycompany\javafxproject\RegisterNewEmployeePageController.class
 commonuse\Utility.class
 com\nva\pojo\KhachHang.class

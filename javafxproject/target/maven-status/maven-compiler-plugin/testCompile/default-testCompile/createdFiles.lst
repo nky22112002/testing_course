@@ -1,0 +1,5 @@
+testservices\UnitTest_NguoiDungServices.class
+com\nva\services\InvoiceServicesTest.class
+testservices\UnitTest_KhachHangServices.class
+testservices\UnitTest_Utility.class
+testservices\UnitTest_NguyenLieuServices.class

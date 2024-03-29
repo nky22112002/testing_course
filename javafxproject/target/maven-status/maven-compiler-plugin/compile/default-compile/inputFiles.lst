@@ -1,50 +1,49 @@
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\App.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\EmployeeFunctionsPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\EmployeeOrderPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\HandleBillPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\HomePageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\MainLoginPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\ManageListOfEmployeePageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\ManageMaterialStockPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\ManagerFunctionsPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\OrderMaterialPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\RegisterMemberPageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\RegisterNewEmployeePageController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\StatisticCustomTimeController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\StatisticMonthController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\mycompany\javafxproject\StatisticYearController.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\Ban.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\HoaDon.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\HoaDon_MonAn.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\HoaDonTamThoi.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\HoaDonTamThoi_MonAn.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\KhachHang.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\MonAn.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\MyPower.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\NguoiDung.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\NguyenLieu.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\NguyenLieu_MonAn.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\NhanVien.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\PhieuMuaHang.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\QuanTriVien.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\pojo\TimeField.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\BanServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\HoaDon_MonAnServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\HoaDonServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\HoaDonTamThoi_MonAnServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\HoaDonTamThoiServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\KhachHangServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\MonAnServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\NguoiDungServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\NguyenLieu_MonAnServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\NguyenLieuServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\NhanVienServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\PhieuMuaHangServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\SimpleCal.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\services\TimeFieldServices.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\com\nva\subclass\NumOfDish.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\commonuse\CauHinh.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\commonuse\Constant.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\commonuse\JdbcUtils.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\commonuse\Utility.java
-C:\Users\Nguyen Ky\Documents\NetBeansProjects\javafxproject\src\main\java\module-info.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\App.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\EmployeeFunctionsPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\EmployeeOrderPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\HandleBillPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\HomePageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\MainLoginPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\ManageListOfEmployeePageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\ManageMaterialStockPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\ManagerFunctionsPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\OrderMaterialPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\RegisterMemberPageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\RegisterNewEmployeePageController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\StatisticCustomTimeController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\StatisticMonthController.java
+D:\testing_course\javafxproject\src\main\java\com\mycompany\javafxproject\StatisticYearController.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\Ban.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\HoaDon.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\HoaDon_MonAn.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\HoaDonTamThoi.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\HoaDonTamThoi_MonAn.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\KhachHang.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\MonAn.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\MyPower.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\NguoiDung.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\NguyenLieu.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\NguyenLieu_MonAn.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\NhanVien.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\PhieuMuaHang.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\QuanTriVien.java
+D:\testing_course\javafxproject\src\main\java\com\nva\pojo\TimeField.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\BanServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\HoaDon_MonAnServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\HoaDonServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\HoaDonTamThoi_MonAnServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\HoaDonTamThoiServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\KhachHangServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\MonAnServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\NguoiDungServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\NguyenLieu_MonAnServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\NguyenLieuServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\NhanVienServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\PhieuMuaHangServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\services\TimeFieldServices.java
+D:\testing_course\javafxproject\src\main\java\com\nva\subclass\NumOfDish.java
+D:\testing_course\javafxproject\src\main\java\commonuse\CauHinh.java
+D:\testing_course\javafxproject\src\main\java\commonuse\Constant.java
+D:\testing_course\javafxproject\src\main\java\commonuse\JdbcUtils.java
+D:\testing_course\javafxproject\src\main\java\commonuse\Utility.java
+D:\testing_course\javafxproject\src\main\java\module-info.java
