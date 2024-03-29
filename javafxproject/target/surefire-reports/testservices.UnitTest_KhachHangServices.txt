@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: testservices.UnitTest_KhachHangServices
--------------------------------------------------------------------------------
-Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.392 s -- in testservices.UnitTest_KhachHangServices

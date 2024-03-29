@@ -6,7 +6,6 @@ package com.nva.services;
 
 import java.io.File;
 
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -21,12 +20,13 @@ public class InvoiceServicesTest {
 
     
     HoaDonServices hd_sv = new HoaDonServices();
+    PhieuMuaHangServices pmh_sv = new PhieuMuaHangServices();
     /**
      * Test of thongKeTongTienTheoThoiGianTuyChinh method, of class HoaDonServices.
      */
     @ParameterizedTest
     @CsvFileSource(resources = "/data_invoices.csv", numLinesToSkip = 1)
-    public void testThongKeTongTienTheoThoiGianTuyChinh(String thoiGianBatDau, String thoiGianKetThuc, int expectOutput) {
+    public void testThongKeTongThuTheoThoiGianTuyChinh(String thoiGianBatDau, String thoiGianKetThuc, int expectOutput) {
         File file = new File(getClass().getResource("/data_invoices.csv").getFile());
         assertTrue(file.exists(), "CSV file does not exist");
         
@@ -39,32 +39,47 @@ public class InvoiceServicesTest {
     /**
      * Test of thongKeTheoThang method, of class HoaDonServices.
      */
-    @Test
-    public void testThongKeTheoThang() {
+    @ParameterizedTest
+    @CsvFileSource(resources = "/data_invoices2.csv", numLinesToSkip = 1)
+    public void testThongKeTongThuTheoThang(String thang, String nam, int expResult) {
+        File file = new File(getClass().getResource("/data_invoices2.csv").getFile());
+        assertTrue(file.exists(), "CSV file does not exist");
         System.out.println("thongKeTheoThang");
-        String thang = "";
-        String nam = "";
         HoaDonServices instance = new HoaDonServices();
-        int expResult = 0;
         int result = instance.thongKeTheoThang(thang, nam);
         assertEquals(expResult, result);
+        
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
      * Test of thongKeTheoNam method, of class HoaDonServices.
      */
-    @Test
-    public void testThongKeTheoNam() {
+    @ParameterizedTest
+    @CsvFileSource(resources = "/data_invoices3.csv", numLinesToSkip = 1)
+    public void testThongKeTongThuTheoNam(String nam, int expResult) {
+        File file = new File(getClass().getResource("/data_invoices3.csv").getFile());
+        assertTrue(file.exists(), "CSV file does not exist");
         System.out.println("thongKeTheoNam");
-        String nam = "";
         HoaDonServices instance = new HoaDonServices();
-        int expResult = 0;
         int result = instance.thongKeTheoNam(nam);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    }
+    
+    @ParameterizedTest
+    @CsvFileSource(resources = "/data_invoices3.csv", numLinesToSkip = 1)
+    public void testThongKeTheoNam(String nam, int expectOutput1,int expectOutput2) {
+        File file = new File(getClass().getResource("/data_invoices3.csv").getFile());
+        assertTrue(file.exists(), "CSV file does not exist");
+        
+        int result1 = hd_sv.thongKeTheoNam(nam);
+        int result2 = pmh_sv.thongKeTheoNam(nam);
+        assertEquals(expectOutput1, result1);
+        assertEquals(expectOutput2, result2);
+
+        // TODO review the generated test code and remove the default call to fail.
+//        fail("Thời gian bắt đầu phải nhỏ hơn thời gian kết thúc!");
     }
     
 }
